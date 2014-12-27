@@ -1,0 +1,23 @@
+/*
+* Platform  for: allwiner  A10
+* author  by jiangdou
+* you  have anything,plese to QQ:344283973
+* time  at: 2012-0801
+*
+* 
+*/
+
+How to compile ....
+
+make  && make clean
+
+use TF card to boot......
+
+./mksunxiboot uart.bin xx.bin
+
+dd if=uart.bin of=/dev/sdX bs=1024 seek=8
+
+
+
+
+
